@@ -1,0 +1,37 @@
+# Gradle and generated build outputs
+.gradle/
+build/
+**/build/
+*.apk
+*.aab
+gradle/gradle-daemon-jvm.properties
+
+# Local machine / SDK configuration
+local.properties
+*.jks
+*.keystore
+keystore.properties
+key.properties
+
+# Android Studio / IntelliJ workspace state
+.idea/
+*.iml
+*.ipr
+*.iws
+app/.gitignore
+
+# Kotlin compiler workspace
+.kotlin/
+
+# Native build intermediates and captures
+.externalNativeBuild/
+.cxx/
+captures/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Local reference material and internal task notes
+sampleUI/
+AI_AGENT_BUILD_PROMPT.md
